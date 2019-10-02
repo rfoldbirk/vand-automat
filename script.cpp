@@ -13,7 +13,7 @@ const int Pump = 6;               // output til vand pumpen.
 const int Moist_sensor = 4;       // output til fugtighedssensoren. Dette bruger vi til at tænde og slukke for den. (se funktion: initiate_moist_read() )
 
 // andet
-const int Moist_pwm = 229;      // vi indstiller her hvor mange volt vi giver til fugtighedssensoren. I dette tilfælde svarer det til ca. 4.5 Volt.
+const int Moist_pwm = 230;      // vi indstiller her hvor mange volt vi giver til fugtighedssensoren. I dette tilfælde svarer det til ca. 4.5 Volt.
 const int Too_dry = 400;        // værdien som fugtigheden skal være under, for at udløse pumpen.
 const int Too_wet = 750;        // værdien som fugtigheden skal være over, før programmet ved at der er for meget vand.
 int wetness;                    // denne variable får en ny værdi hver gang vi måler fugtigheden.
